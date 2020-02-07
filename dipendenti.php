@@ -20,7 +20,7 @@ class Dipendenti {
     } elseif ($this->pay < 0) {
       throw new Exception('No negative number allowed');
     } else{
-    $gross = $this->pay * 12;
+    $gross = ($this->pay * 12) * 1.4;
     return $gross;
     }
   }

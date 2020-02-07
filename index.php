@@ -13,7 +13,7 @@ var_dump($dirigente);
 var_dump($dirigente2);
 echo "</pre>";
 
-$operaio = new Operaio('2A' , 'Rick' , 'Simons' , -1, 'Night');
+$operaio = new Operaio('2A' , 'Rick' , 'Simons' , 1500, 'Night');
 $operaio1 = new Operaio('2B' , 'Rosa' , 'Parks' , 1500 , 'Day');
 
 echo "<pre>";
